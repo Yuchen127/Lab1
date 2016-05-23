@@ -1,6 +1,6 @@
 package Lab1;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 import java.lang.Math;
  // import the input and math method.
 
@@ -45,7 +45,7 @@ public class GetUserInput {
 				System.out.print("Enter your pay back annual return percentage in range 0-3:");
 				AnnualReturnPayBack = user_input.nextInt();
 				AnnualReturnPayBack = AnnualReturnPayBack;
-			}while (AnnualReturnPayBack <0 || AnnualReturnPayBack > 3);
+			}while (AnnualReturnPayBack < 0 || AnnualReturnPayBack > 3);
 		System.out.println("");
 		
 		System.out.print("Enter your required income:");
